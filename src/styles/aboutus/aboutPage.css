@@ -1,0 +1,518 @@
+.about-wrapper {
+  background: #070707;
+  color: #e8e8e8;
+  overflow: hidden;
+}
+
+.about-hero {
+  padding: 200px 20px 200px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.about-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(0, 0, 0, 0.55) 40%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+}
+
+.about-title {
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  font-size: 72px;
+  font-weight: 1000;
+  color: #fff;
+  letter-spacing: 1px;
+  z-index: 2;
+}
+
+.highlight {
+  color: rgba(248, 191, 127);
+}
+
+.about-values-section {
+  padding: 140px 100px;
+}
+
+.about-values-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+}
+
+.about-values-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-values-tag {
+  display: inline-block;
+  padding: 6px 18px;
+  border: 1px solid rgba(248, 191, 127);
+  border-radius: 30px;
+  font-size: 0.85rem;
+  color: rgba(248, 191, 127);
+  letter-spacing: 1px;
+  width: fit-content;
+  text-transform: uppercase;
+}
+
+.about-values-title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #ffffff;
+  max-width: 520px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+}
+
+.about-values-list {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 10px;
+}
+
+.about-values-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.about-values-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid rgba(248, 191, 127);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(248, 191, 127);
+  font-size: 20px;
+  flex-shrink: 0;
+  transition: 0.3s ease;
+}
+
+.about-values-row:hover .about-values-icon {
+  background: rgba(248, 191, 127);
+  color: #0c0c0c;
+}
+
+.about-values-row h3 {
+  font-size: 1.48rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.about-values-row p {
+  font-size: 0.95rem;
+  color: #adabab;
+  line-height: 1.6;
+  max-width: 420px;
+}
+
+.about-values-right {
+  height: 100%;
+}
+
+.about-values-right img {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.about-performance-section {
+  position: relative;
+  padding: 80px 100px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: #fff;
+}
+
+.about-performance-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.81);
+}
+
+.about-performance-container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.about-performance-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.about-performance-title {
+  font-size: 56px;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.2;
+}
+
+.about-performance-desc {
+  color: #adabab;
+  line-height: 1.7;
+  max-width: 500px;
+}
+
+.about-performance-progress-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.progress-item {
+  margin-bottom: 35px;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.progress-bar {
+  height: 4px;
+  background: #2b2b2b;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: rgba(248, 191, 127);
+  border-radius: 4px;
+}
+
+.about-team-section {
+  padding: 120px 100px;
+  background: #070707;
+  color: #fff;
+}
+
+.about-team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.about-team-tag {
+  display: inline-block;
+  padding: 6px 16px;
+  border: 1px solid rgba(248, 191, 127);
+  border-radius: 30px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: rgba(248, 191, 127);
+  margin-bottom: 20px;
+}
+
+.about-team-title {
+  font-size: 56px;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.about-team-desc {
+  color: #adabab;
+  max-width: 400px;
+  line-height: 1.7;
+}
+
+.about-team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.about-team-card {
+  position: relative;
+  background: #0f0f0f;
+  padding: 50px 40px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #1a1a1a;
+  transition: 0.4s ease;
+}
+
+.about-team-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background: rgba(248, 191, 127);
+  transition: 0.4s ease;
+}
+
+.about-team-initial {
+  position: absolute;
+  font-size: 120px;
+  font-weight: 900;
+  color: rgba(248, 191, 127, 0.05);
+  right: 20px;
+  bottom: 10px;
+  pointer-events: none;
+  font-family: "Oswald", sans-serif;
+}
+
+.about-team-content h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.about-team-content span {
+  font-size: 14px;
+  color: #adabab;
+  letter-spacing: 1px;
+}
+
+.about-team-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(248, 191, 127);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.about-team-card:hover::before {
+  width: 6px;
+}
+
+@media (max-width: 1200px) {
+  .about-team-section {
+    padding: 100px 60px;
+  }
+
+  .about-team-title {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-values-section {
+    padding: 100px 40px;
+  }
+
+  .about-values-container {
+    gap: 40px;
+  }
+
+  .about-values-title {
+    font-size: 2.8rem;
+  }
+
+  .about-performance-section {
+    padding: 80px 60px;
+    background-position: center;
+  }
+
+  .about-performance-top {
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+
+  .about-performance-title {
+    font-size: 44px;
+  }
+
+  .about-performance-desc {
+    max-width: 100%;
+  }
+
+  .about-performance-progress-wrapper {
+    gap: 40px;
+  }
+
+  .about-team-container {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .about-team-title {
+    font-size: 40px;
+  }
+
+  .about-team-desc {
+    max-width: 100%;
+  }
+
+  .about-team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 120px 20px 120px;
+  }
+
+  .about-title {
+    font-size: 32.5px;
+  }
+
+  .about-values-section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .about-values-container {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .about-values-left {
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-values-tag {
+    margin: 0 auto;
+  }
+
+  .about-values-title {
+    font-size: 2rem;
+    max-width: 100%;
+  }
+
+  .about-values-right {
+    order: -1;
+    display: none;
+  }
+
+  .about-values-list {
+    width: 100%;
+    align-items: center;
+  }
+
+  .about-values-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .about-values-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+  }
+
+  .about-values-row h3 {
+    font-size: 1.2rem;
+  }
+
+  .about-values-row p {
+    font-size: 0.9rem;
+    max-width: 100%;
+  }
+
+  .about-performance-title,
+  .about-performance-desc,
+  .progress-header {
+    text-align: center;
+  }
+
+  .about-performance-section {
+    padding: 20px 20px;
+    background-size: cover;
+    background-position: center top;
+  }
+
+  .about-performance-top {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 50px;
+  }
+
+  .about-performance-title {
+    font-size: 32px;
+  }
+
+  .about-performance-desc {
+    margin: 0 auto;
+  }
+
+  .about-performance-progress-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .progress-item {
+    margin-bottom: 25px;
+  }
+
+  .progress-header {
+    font-size: 14px;
+  }
+
+  .about-team-section {
+    padding: 80px 20px;
+  }
+
+  .about-team-container {
+    gap: 40px;
+  }
+
+  .about-team-tag {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+  }
+
+  .about-team-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .about-team-desc {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .about-team-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .about-team-card {
+    padding: 35px 25px;
+  }
+
+  .about-team-initial {
+    font-size: 80px;
+  }
+
+  .about-team-content h3 {
+    font-size: 19px;
+  }
+}

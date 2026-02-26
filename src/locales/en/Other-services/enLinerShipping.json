@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "title": "Liner Shipping"
+  },
+
+  "heading": "Liner Shipping Services",
+  "subheading": "Reliable, scheduled and cost-efficient ocean transport for global cargo.",
+
+  "p1": "Navex Global offers reliable liner shipping services that ensure smooth and predictable cargo movement across major international trade routes. Our partnerships with trusted carriers support consistent sailing schedules and efficient ocean transport.",
+  "p2": "We handle both full container loads and consolidated shipments, providing tailored liner shipping solutions that match your transit-time, routing and volume requirements across global ports.",
+  "p3": "Our logistics team works closely with vessel operators and port terminals to guarantee safe, timely and cost-effective movement of your containers throughout the GCC, Asia, Europe and key global destinations.",
+  "p4": "From vessel booking to documentation and coordination, we manage the entire liner shipping process to ensure accurate Bill of Lading handling, clear communication and seamless cargo flow from origin to destination.",
+
+  "process": {
+    "title": "Process",
+    "book": "Booking",
+    "pack": "Container Stuffing",
+    "move": "Ocean Transit",
+    "delivery": "Port Delivery"
+  }
+}

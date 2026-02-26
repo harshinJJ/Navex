@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "About Us",
+    "subtitle": "Logistics solutions designed for a connected world."
+  },
+
+  "values": {
+    "tag": "WHO WE ARE",
+    "title": "Delivering Global Logistics Excellence",
+    "items": [
+      {
+        "title": "Global Freight Expertise",
+        "description": "Reliable sea, air and road freight solutions across global trade routes."
+      },
+      {
+        "title": "Integrated Supply Chain Solutions",
+        "description": "Complete logistics support including customs, warehousing and 3PL."
+      },
+      {
+        "title": "Customer-Driven Operations",
+        "description": "Client-focused operations built on precision, speed and trust."
+      }
+    ]
+  },
+
+  "performance": {
+    "title": "Operational Performance Overview",
+    "description": "Delivering precision, speed, and reliability across every stage of the global supply chain. Our performance metrics reflect our commitment to operational excellence and customer satisfaction.",
+    "metrics": [
+      "On-Time Delivery Performance",
+      "Global Trade Route Coverage",
+      "Customs Processing Efficiency",
+      "Cargo Handling Accuracy",
+      "Warehouse Inventory Precision",
+      "Customer Satisfaction Index"
+    ]
+  },
+
+  "team": {
+    "tag": "OUR TEAM",
+    "titleLine1": "Meet With",
+    "titleLine2": "Expert Team",
+    "description": "Our leadership team brings deep industry knowledge, operational precision, and global logistics expertise.",
+    "members": [
+      {
+        "initial": "AF",
+        "name": "Abu Falah",
+        "role": "Operations Director"
+      },
+      {
+        "initial": "BA",
+        "name": "Badr",
+        "role": "Supply Chain Manager"
+      }
+    ]
+  }
+}

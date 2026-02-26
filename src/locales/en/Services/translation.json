@@ -1,0 +1,35 @@
+{
+  "why": {
+    "title1": "Why Choose",
+    "title2": "Navex Global",
+
+    "card1": {
+      "title": "Tailor-Made Solutions",
+      "text": "Customized logistics strategies designed around your cargo needs."
+    },
+    "card2": {
+      "title": "Global Coverage",
+      "text": "Strong international partnerships ensuring seamless movement worldwide."
+    },
+    "card3": {
+      "title": "Secure Handling",
+      "text": "Careful documentation, tracking, and reliable cargo management."
+    },
+    "card4": {
+      "title": "Customer-First",
+      "text": "Dedicated support team committed to timely and safe delivery."
+    }
+  },
+  "offices": {
+    "title1": "We Are",
+    "title2": "Present In",
+    "subtitle": "Our global offices helping clients worldwide",
+
+    "saudi": "Saudi Arabia",
+    "india": "India",
+    "uae": "UAE",
+    "pakistan": "Pakistan",
+    "china": "China",
+    "bangladesh": "Bangladesh"
+  }
+}

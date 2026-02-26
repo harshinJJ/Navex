@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "title": "Buyer’s Consolidation"
+  },
+
+  "heading": "Buyer’s Consolidation Services",
+  "subheading": "Cost-efficient, organized and optimized cargo consolidation for global buyers.",
+
+  "p1": "Navex Global provides reliable buyer’s consolidation services that help businesses combine multiple supplier shipments into a single, optimized load. This reduces freight costs, improves shipment control, and ensures a smoother supply chain.",
+  "p2": "We coordinate pickup from different suppliers, handle sorting, labeling, and documentation, and consolidate cargo into full container loads for efficient international shipping.",
+  "p3": "Our logistics team manages end-to-end planning, warehouse handling, and container stuffing to ensure each shipment is secure, compliant, and delivered on schedule.",
+  "p4": "With transparent tracking and seamless coordination, Navex Global helps importers achieve better cost savings, reduced transit times, and stronger control over multi-supplier cargo flow.",
+
+  "process": {
+    "title": "Process",
+    "book": "Collect Shipments",
+    "pack": "Sort & Consolidate",
+    "move": "Container Stuffing",
+    "delivery": "Global Transport"
+  }
+}

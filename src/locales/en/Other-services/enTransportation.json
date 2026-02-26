@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Transportation"
+  },
+
+  "heading": "Transportation Services",
+  "subheading": "Reliable, safe, and efficient cargo movement across all routes.",
+
+  "p1": "Navex Global provides dependable transportation solutions designed to move goods efficiently by road, sea, and air. Our fleet and partner network ensure fast, secure, and cost-effective cargo movement.",
+  "p2": "We handle full truckload, less-than-truckload, containerized shipments, and specialized cargo, offering flexible transport options tailored to your route, volume, and delivery requirements.",
+  "p3": "With real-time tracking, optimized routing, and active communication, we help businesses reduce transit delays, improve delivery accuracy, and maintain full visibility throughout the journey.",
+  "p4": "Our team coordinates documentation, scheduling, loading, and last-mile delivery to ensure smooth end-to-end transportation across domestic and international routes.",
+  "p5": "Through strategic partnerships and reliable fleet operations, Navex Global guarantees consistent service performance, reduced transit times, and safe delivery at every stage.",
+
+  "process": {
+    "title": "Process",
+    "book": "Request Transport",
+    "pack": "Plan & Schedule",
+    "move": "Move Cargo",
+    "delivery": "Final Delivery"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Ocean Freight"
+  },
+
+  "heading": "Ocean Freight Solutions",
+  "subheading": "Reliable shipping for global trade.",
+
+  "p1": "Navex Global provides dependable ocean freight services designed to support businesses of all sizes. With strong partnerships across major global carriers, we ensure your cargo moves smoothly across international waters.",
+  "p2": "From full container loads to consolidated shipments, our ocean freight options are tailored to match your budget, cargo size, and delivery timelines.",
+  "p3": "We work closely with trusted shipping lines and global logistics networks to provide secure, cost-efficient, and flexible transportation to key ports worldwide.",
+  "p4": "Ocean freight is ideal for large, non-urgent, or bulk shipments. Our team coordinates the entire process with careful planning, transparency, and expert handling.",
+  "p5": "Efficient Bill of Lading processing is crucial for uninterrupted cargo flow. Our specialists manage all documentation with accuracy so your containers reach their destination on time.",
+
+  "process": {
+    "title": "Process",
+    "book": "Book Service",
+    "pack": "Container Loading",
+    "move": "Sea Transit",
+    "delivery": "Safe Delivery"
+  }
+}

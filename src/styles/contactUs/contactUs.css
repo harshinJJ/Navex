@@ -1,0 +1,306 @@
+.cu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 120px 0px;
+  min-height: 100vh;
+  color: #fff;
+  background:
+    radial-gradient(
+      circle at bottom right,
+      rgba(248, 191, 127, 0.35),
+      rgba(0, 0, 0, 1) 60%
+    ),
+    #000;
+}
+.cu-left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cu-title {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+
+.cu-subtext {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #b3b3b3;
+  padding-top: 40px;
+  text-align: left;
+  padding-left: 200px;
+}
+
+.cu-whatsapp {
+  margin-top: 25px;
+  font-size: 16px;
+  color: #25d366;
+  text-decoration: none;
+}
+.cu-whatsapp:hover {
+  opacity: 0.8;
+}
+
+.cu-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cu-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cu-label {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.cu-input,
+.cu-textarea {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #555;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+}
+
+.cu-input:focus,
+.cu-textarea:focus {
+  border-bottom: 1px solid #fff;
+}
+
+.cu-checkbox {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  font-size: 13px;
+  gap: 10px;
+  color: #bbbbbb;
+}
+
+.cu-btn {
+  margin-top: 25px;
+  padding: 12px 22px;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.cu-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.cu-whatsapp-btn {
+  margin-top: 15px;
+  padding: 12px 22px;
+  background: #25d366;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.cu-whatsapp-btn:hover {
+  opacity: 0.8;
+}
+
+/* ========================= */
+/* RESPONSIVE — TABLET (1024px) */
+/* ========================= */
+@media (max-width: 1026px) {
+  .cu-wrapper {
+    padding: 80px 60px 0px;
+  }
+
+  .cu-left {
+    width: 48%;
+  }
+
+  .cu-right {
+    width: 48%;
+  }
+
+  .cu-title {
+    font-size: 42px;
+  }
+
+  .cu-subtext {
+    padding-left: 80px;
+    padding-top: 30px;
+  }
+}
+
+/* ========================= */
+/* RESPONSIVE — MOBILE (768px) */
+/* ========================= */
+@media (max-width: 768px) {
+  .cu-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 30px 40px;
+    min-height: unset;
+  }
+
+  .cu-left,
+  .cu-right {
+    width: 100%;
+  }
+
+  .cu-title br {
+    display: none;
+  }
+
+  .cu-title {
+    font-size: 28px;
+    line-height: 1.3;
+    white-space: normal;
+  }
+
+  .cu-subtext {
+    padding-left: 0px;
+    padding-top: 20px;
+    font-size: 15px;
+    max-width: 90%;
+  }
+
+  .cu-form {
+    margin-top: 40px;
+  }
+
+  .cu-input,
+  .cu-textarea {
+    font-size: 14px;
+  }
+
+  .cu-label {
+    font-size: 13px;
+  }
+
+  .cu-btn,
+  .cu-whatsapp-btn {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 14px;
+  }
+}
+
+/* ========================= */
+/* RESPONSIVE — SMALL PHONES (480px) */
+/* ========================= */
+@media (max-width: 480px) {
+  .cu-title {
+    font-size: 28px;
+  }
+
+  .cu-subtext {
+    font-size: 14px;
+  }
+
+  .cu-btn,
+  .cu-whatsapp-btn {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+  }
+}
+.testimonial-moving {
+  padding: 70px 20px 20px;
+  text-align: center;
+}
+
+.testimonial-title {
+  font-size: 42px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 40px;
+}
+
+
+.testimonial-marquee {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+
+.testimonial-track {
+  display: flex;
+  gap: 40px;
+  width: max-content;
+  animation: testimonialLoop 25s linear infinite;
+}
+
+
+.testimonial-box {
+  width: 380px;
+  padding: 25px 30px;
+  background: #0d0d0d;
+  border: 1px solid rgba(248, 191, 127, 0.25);
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(248, 191, 127, 0.08);
+  transition: .3s ease;
+}
+
+.testimonial-box p {
+  color: #dcdcdc;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.testimonial-box h4 {
+  margin-top: 15px;
+  color: rgba(248, 191, 127);
+  font-size: 18px;
+}
+
+@keyframes testimonialLoop {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+
+@media (max-width: 768px) {
+  .testimonial-box {
+    width: 280px;
+  }
+  .testimonial-title {
+    font-size: 32px;
+  }
+}
+/* ============================
+   FIX: Marquee breaks in Arabic
+   Force marquee to behave LTR
+============================*/
+
+.testimonial-moving,
+.testimonial-marquee,
+.testimonial-track,
+.testimonial-box,
+.marquee-wrapper,
+.marquee-content {
+  direction: ltr !important;
+}
+
+/* Office cards text can remain RTL */
+.office-card h3 {
+  direction: rtl;
+  text-align: center;
+}

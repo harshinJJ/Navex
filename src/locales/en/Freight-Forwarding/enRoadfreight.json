@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Road Freight"
+  },
+
+  "heading": "Road Freight Solutions",
+  "subheading": "Reliable transport across the region.",
+
+  "p1": "Navex Global delivers efficient road freight services designed to support businesses with dependable land transportation. Our strong regional network allows us to move cargo quickly and safely across the GCC.",
+  "p2": "Whether you need full truckload services or shared transport options, we tailor every road freight solution to match your shipment size, route, and delivery schedule.",
+  "p3": "We operate with trusted transport partners and a well-managed fleet to ensure secure, cost-effective, and flexible cargo movement.",
+  "p4": "Road freight is ideal for domestic and cross-border transportation. Our team handles routing, planning, and coordination with precision to guarantee smooth delivery.",
+  "p5": "Timely documentation and accurate shipment tracking are essential for on-time delivery. Our experts ensure seamless handling from pickup to final destination.",
+
+  "process": {
+    "title": "Process",
+    "book": "Book Service",
+    "pack": "Cargo Loading",
+    "move": "Road Transit",
+    "delivery": "Safe Delivery"
+  }
+}

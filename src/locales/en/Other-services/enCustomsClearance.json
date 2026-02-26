@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Customs Clearance"
+  },
+
+  "heading": "Customs Clearance Services",
+  "subheading": "Fast, compliant and stress-free clearance for your cargo.",
+
+  "p1": "Navex Global provides reliable and efficient customs clearance services designed to simplify cargo movement across borders. Our team handles all customs requirements with accuracy to ensure your shipments move without delays.",
+  "p2": "We support both import and export customs documentation, helping businesses of all sizes comply with regulations in the GCC and around the world.",
+  "p3": "Our specialists stay updated with customs laws and tariff changes, ensuring your cargo clears quickly while avoiding unnecessary costs, penalties or paperwork issues.",
+  "p4": "Whether you’re shipping commercial goods, machinery, personal effects or special-category items, we manage the entire clearance process with precision and care.",
+  "p5": "From document preparation to duty assessments and inspection coordination, our team ensures smooth, transparent and compliant customs clearance for every shipment.",
+
+  "process": {
+    "title": "Process",
+    "book": "Submit Documents",
+    "pack": "Customs Filing",
+    "move": "Inspection Support",
+    "delivery": "Final Clearance"
+  }
+}

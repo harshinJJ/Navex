@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Air Freight"
+  },
+
+  "heading": "Air Freight Solutions",
+  "subheading": "Moving your business is our business.",
+
+  "p1": "When it comes to air freight services, Navex Global offers a wide range of reliable and efficient logistics solutions. With extensive industry experience and strong market expertise, we consistently deliver services beyond customer expectations.",
+  "p2": "Whether you are transporting lightweight parcels or heavyweight cargo, we provide customized air freight solutions designed to meet evolving domestic and international logistics demands.",
+  "p3": "We work closely with leading airlines and global freight partners to ensure secure, timely, and cost-effective transportation across the GCC and worldwide destinations.",
+  "p4": "Air freight transportation is ideal for urgent and high-value shipments. Our team manages both international and domestic air cargo with complete attention to detail, flexibility, and competitive pricing.",
+  "p5": "Fast and accurate Air Waybill processing is essential for smooth cargo movement. Our experts ensure quick documentation handling with precision, enabling seamless global transit.",
+
+  "process": {
+    "title": "Process",
+    "book": "Book Service",
+    "pack": "Packing",
+    "move": "Moving",
+    "delivery": "Safe Delivery"
+  }
+}

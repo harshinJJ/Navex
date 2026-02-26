@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Sea-Air Freight"
+  },
+
+  "heading": "Sea-Air Freight Services",
+  "subheading": "Smart logistics combining speed and cost savings.",
+
+  "p1": "Navex Global provides Sea-Air freight services that blend the low cost of ocean shipping with the fast delivery of air transport. This combined solution helps businesses reduce transit time without paying full air freight rates.",
+  "p2": "With well-connected routes through major seaports and airports, we ensure smooth movement of your cargo from sea to air. This makes Sea-Air a great choice for long-distance shipments that need balanced speed and affordability.",
+  "p3": "Our logistics team manages the full process, including cargo consolidation, customs clearance, tracking, and secure transfer between sea and air hubs.",
+  "p4": "Sea-Air freight is ideal for medium-urgency shipments, high-volume goods, electronics, fashion items, and seasonal products that must reach the market on time.",
+  "p5": "We handle all shipping documents, schedules, and cargo coordination with accuracy, giving you reliable door-to-door delivery with full visibility.",
+
+  "process": {
+    "title": "Process",
+    "book": "Book Service",
+    "pack": "Cargo Preparation",
+    "move": "Sea + Air Transit",
+    "delivery": "Safe Delivery"
+  }
+}

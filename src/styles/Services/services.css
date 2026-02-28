@@ -480,3 +480,29 @@
   gap: 6px;
   font-size: 24px;
 }
+/* Regulatory continuation inside left column */
+.regulatory-inline {
+  margin-top: 10px;
+}
+
+.regulatory-inline .services-subheading {
+  margin-bottom: 12px;
+}
+
+.regulatory-list {
+  margin: 0;
+  padding-left: 20px; /* same indent look */
+}
+
+.services-wrapper[dir="rtl"] .regulatory-list {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.regulatory-list li {
+  font-size: 16px;          /* same as .services-left p */
+  line-height: 1.8;         /* same spacing */
+  margin-bottom: 20px;      /* same bottom spacing */
+  color: #cfcfcf;           /* exact same paragraph color */
+  list-style-type: disc;    /* default bullet */
+}

@@ -81,6 +81,17 @@ function ValueAddedService() {
             <motion.p variants={softItem}>{t("p3")}</motion.p>
             <motion.p variants={softItem}>{t("p4")}</motion.p>
             <motion.p variants={softItem}>{t("p5")}</motion.p>
+            <motion.div className="regulatory-inline" variants={softItem}>
+              <h3 className="services-subheading">{t("regulatory.title")}</h3>
+
+              <ul className="regulatory-list">
+                {t("regulatory.list", { returnObjects: true }).map(
+                  (item, index) => (
+                    <li key={index}>{item}</li>
+                  ),
+                )}
+              </ul>
+            </motion.div>
           </motion.div>
 
           {/* PROCESS SECTION */}

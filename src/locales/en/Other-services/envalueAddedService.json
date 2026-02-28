@@ -12,6 +12,17 @@
   "p4": "Whether supporting retail, e-commerce, FMCG, industrial goods, or specialized products, our value-added solutions adapt to your operational needs and business goals.",
   "p5": "From product preparation to compliance tasks and final packaging, Navex Global ensures consistent quality, enhanced efficiency, and greater control over every stage of your logistics process.",
 
+  "regulatory": {
+    "title": "Regulatory & Compliance Services",
+    "list": [
+      "SABER Certification Processing",
+      "SASO Compliance Assistance",
+      "Chamber of Commerce Attestation",
+      "Certificate of Origin Documentation",
+      "Import & Export Regulatory Support"
+    ]
+  },
+
   "process": {
     "title": "Process",
     "book": "Receive Items",

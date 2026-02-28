@@ -285,7 +285,7 @@ export default function About_us() {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            Certified & Trusted
+            {t("cert.tag")}
           </motion.span>
 
           <motion.h2
@@ -295,7 +295,7 @@ export default function About_us() {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            20+ Years of Excellence
+            {t("cert.title")}
           </motion.h2>
 
           <motion.p
@@ -305,9 +305,7 @@ export default function About_us() {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            Recognized as a reliable industry leader with long-standing
-            partnerships across the globe. Our certifications and partners
-            reflect our commitment to quality and professionalism.
+            {t("cert.description")}
           </motion.p>
 
           <motion.div

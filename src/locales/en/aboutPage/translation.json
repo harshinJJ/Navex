@@ -42,16 +42,20 @@
     "titleLine2": "Expert Team",
     "description": "Our leadership team brings deep industry knowledge, operational precision, and global logistics expertise.",
     "members": [
-      {
-        "initial": "AF",
-        "name": "Abu Falah",
-        "role": "Director-Sales"
-      },
-      {
-        "initial": "BA",
-        "name": "Badr",
-        "role": "CEO"
-      }
+     {
+      "initial": "AW",
+      "name": "Abdullah Falah Al-Wahbi",
+      "role": "Chairman of the Board"
+    },
+    {
+      "initial": "BW",
+      "name": "Badr Al-Wahbi",
+      "role": "General Manager"
+    }
     ]
-  }
+  },"cert": {
+  "tag": "Certified & Trusted",
+  "title": "20+ Years of Excellence",
+  "description": "Recognized as a reliable industry leader with long-standing partnerships across the globe. Our certifications and partners reflect our commitment to quality and professionalism."
+}
 }

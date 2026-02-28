@@ -8,7 +8,6 @@ import toast from "../../toastConfig";
 
 export default function Footer() {
   const { t } = useTranslation("footer");
-
   const [email, setEmail] = useState("");
 
   const fadeUp = {
@@ -69,9 +68,8 @@ export default function Footer() {
             </motion.a>
           </nav>
 
-          {/* SOCIAL LINKS UPDATED */}
+          {/* SOCIAL LINKS */}
           <motion.div className="footer-socials" variants={fadeUp}>
-            {/* LinkedIn */}
             <motion.a
               href="https://www.linkedin.com/company/navex-global-ksa/"
               target="_blank"
@@ -81,7 +79,6 @@ export default function Footer() {
               <FiLinkedin />
             </motion.a>
 
-            {/* Instagram */}
             <motion.a
               href="https://www.instagram.com/navexglobalsa/"
               target="_blank"
@@ -91,7 +88,6 @@ export default function Footer() {
               <FiInstagram />
             </motion.a>
 
-            {/* X (Twitter) */}
             <motion.a
               href="https://x.com/navexglobalksa?s=11"
               target="_blank"
@@ -110,6 +106,13 @@ export default function Footer() {
           <div className="footer-left">
             <p>{t("footer.copy")}</p>
             <p className="footer-small">{t("footer.tagline")}</p>
+
+            {/* ADDRESS BLOCK */}
+            <div className="footer-address">
+              <p>{t("footer.address.building")}</p>
+              <p>{t("footer.address.city")}</p>
+              <p>{t("footer.address.area")}</p>
+            </div>
           </div>
 
           <motion.div className="footer-right">

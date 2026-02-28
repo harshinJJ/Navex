@@ -5,8 +5,15 @@
     "tagline": "Built with passion — logistics made simple.",
     "subscribeTitle": "Join our mailing list",
     "emailPlaceholder": "Business email",
-    "submit": "Submit"
+    "submit": "Submit",
+
+    "address": {
+      "building": "Al Noor Tower, opposite the Federation of Chambers of Commerce",
+      "city": "Riyadh, Al-Olaya neighborhood, King Fahd Road Street",
+      "area": "Fourth Floor (4), Office No. 41"
+    }
   },
+
   "nav": {
     "home": "Home",
     "about": "About Us",

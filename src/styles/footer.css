@@ -194,3 +194,9 @@
     font-size: 14px;
   }
 }
+.footer-address {
+  margin-top: 14px;
+  line-height: 1.6;
+  color: #ccc;
+  font-size: 14px;
+}

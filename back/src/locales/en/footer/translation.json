@@ -1,0 +1,17 @@
+{
+  "footer": {
+    "brand": "Navex Global",
+    "copy": "© 2026 Navex Global. All Rights Reserved.",
+    "tagline": "Built with passion — logistics made simple.",
+    "subscribeTitle": "Join our mailing list",
+    "emailPlaceholder": "Business email",
+    "submit": "Submit"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "solutions": "Solutions",
+    "contact": "Contact"
+  }
+}

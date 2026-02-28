@@ -1,0 +1,77 @@
+.contact-widget {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9999;
+}
+
+.widget-toggle {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #101010;
+  color: white;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.35);
+  transition: 0.25s ease;
+}
+
+.widget-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* Sliding Menu */
+.contact-menu {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  transform: translateY(-50%) translateX(-20px);
+  background: #141414;
+  padding: 12px 14px;
+  border-radius: 12px;
+  width: 180px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.25s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* When open */
+.contact-menu.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(-50%) translateX(0);
+}
+
+/* Menu Items */
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 6px;
+  color: #e2e2e2;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.menu-item:hover {
+  background: #1f1f1f;
+}
+
+/* Icon Colors */
+.wa {
+  color: #25d366;
+}
+.mail {
+  color: #ff4d4d;
+}
+.tw {
+  color: #1da1f2;
+}

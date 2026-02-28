@@ -5,10 +5,22 @@ import aboutHero from "../assets/Aboutus/about-hero.png";
 import aboutcard1 from "../assets/Aboutus/aboutuscard1.png";
 import aboutusbg from "../assets/Aboutus/about-us-bg.png";
 import { FaShip, FaBoxes, FaUsers } from "react-icons/fa";
-
+import partner1 from "../assets/Aboutus/p1.png";
+import partner2 from "../assets/Aboutus/p2.png";
+import partner3 from "../assets/Aboutus/p3.png";
+import partner4 from "../assets/Aboutus/p4.png";
+import partner5 from "../assets/Aboutus/p5.png";
+import partner6 from "../assets/Aboutus/p6.png";
 export default function About_us() {
   const { t } = useTranslation("aboutPage");
-
+  const partnerLogos = [
+    partner1,
+    partner2,
+    partner3,
+    partner4,
+    partner5,
+    partner6,
+  ];
   const smoothReveal = {
     hidden: { opacity: 0, y: 60 },
     visible: {
@@ -211,7 +223,6 @@ export default function About_us() {
           </div>
         </div>
       </section>
-
       {/* ================= TEAM ================= */}
 
       <section className="about-team-section">
@@ -258,6 +269,61 @@ export default function About_us() {
                   <h3>{member.name}</h3>
                   <span>{member.role}</span>
                 </div>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+      {/* ================= CERTIFICATION & PARTNERS ================= */}
+
+      <section className="about-cert-section">
+        <div className="about-cert-container">
+          <motion.span
+            className="about-cert-tag"
+            variants={smoothReveal}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            Certified & Trusted
+          </motion.span>
+
+          <motion.h2
+            className="about-cert-title"
+            variants={smoothReveal}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            20+ Years of Excellence
+          </motion.h2>
+
+          <motion.p
+            className="about-cert-desc"
+            variants={smoothReveal}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            Recognized as a reliable industry leader with long-standing
+            partnerships across the globe. Our certifications and partners
+            reflect our commitment to quality and professionalism.
+          </motion.p>
+
+          <motion.div
+            className="about-cert-logos"
+            variants={smoothStagger}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            {partnerLogos.map((logo, i) => (
+              <motion.div
+                key={i}
+                className="partner-logo-card"
+                variants={smoothReveal}
+              >
+                <img src={logo} alt={`Partner ${i + 1}`} />
               </motion.div>
             ))}
           </motion.div>

@@ -1,0 +1,482 @@
+.services-wrapper {
+  background: #070707;
+  color: #e8e8e8;
+  overflow: hidden;
+}
+
+.services-hero {
+  padding: 200px 20px 200px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.services-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(0, 0, 0, 0.55) 40%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+}
+
+.services-title {
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  font-size: 72px;
+  font-weight: 1000;
+  color: #fff;
+  letter-spacing: 1px;
+  z-index: 2;
+}
+
+.highlight {
+  color: rgba(248, 191, 127);
+}
+@media (max-width: 768px) {
+  .services-hero {
+    padding: 120px 20px 120px;
+  }
+
+  .services-title {
+    font-size: 32.5px;
+  }
+}
+.services-content {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.services-heading {
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+
+.services-subheading {
+  font-size: 1.48rem;
+  margin-bottom: 30px;
+  color: rgba(248, 191, 127);
+}
+
+.services-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #cfcfcf;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.services-left p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #cfcfcf;
+}
+
+@media (max-width: 1025px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .services-heading {
+    font-size: 42px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .services-left {
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  .services-heading {
+    padding: 0 10px;
+  }
+
+  .services-subheading {
+    padding: 0 10px;
+  }
+
+  .services-left p {
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 765px) {
+  .services-grid {
+    gap: 0px;
+  }
+
+  .services-heading {
+    font-size: 36px;
+  }
+
+  .services-left p,
+  .services-content p {
+    max-width: 450px;
+  }
+
+  .process-step::before {
+    right: 10px;
+  }
+  .services-subheading {
+    font-size: 1.2rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 576px) {
+  .services-content {
+    padding: 60px 15px 20px;
+  }
+
+  .services-heading {
+    font-size: 32px;
+  }
+
+  .services-subheading {
+    font-size: 1.1rem;
+  }
+
+  .process-step {
+    padding: 15px;
+  }
+
+  .process-step::before {
+    right: 15px;
+  }
+}
+
+/* =========================
+   WHY CARD SECTION
+========================= */
+
+.why-card-section {
+  background-image: url("../../assets/services/logistics.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.why-card-overlay {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 60px 20px;
+}
+
+.why-card-title {
+  text-align: center;
+  color: #fff;
+  font-size: clamp(26px, 5vw, 42px);
+  margin-bottom: 40px;
+  font-family: "Oswald", sans-serif;
+}
+
+.why-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 25px;
+}
+
+.brand-highlight {
+  color: rgba(248, 191, 127);
+}
+.why-card {
+  background: black;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(248, 191, 127, 0.6);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.why-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(248, 191, 127, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: rgba(248, 191, 127);
+  transition: 0.3s ease;
+}
+
+.why-card:hover .why-icon {
+  background: rgba(248, 191, 127, 0.2);
+  transform: scale(1.05);
+}
+
+.why-card h4 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.why-card p {
+  color: #bbb;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1025px) {
+  .why-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .why-card-overlay {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 765px) {
+  .why-card-section {
+    background-image: url("../../assets/services/logistics-mobile.png");
+    background-position: center;
+  }
+
+  .why-card-overlay {
+    padding: 40px 15px;
+  }
+
+  .why-card-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+.process-box {
+  position: relative;
+  background: #111;
+  border: 1px solid rgba(248, 191, 127, 0.5);
+  padding: 45px 25px 30px;
+  border-radius: 12px;
+  margin-top: 30px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 18px rgba(248, 191, 127, 0.12);
+  justify-content: left;
+}
+
+.process-label {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #111;
+  padding: 5px 18px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(248, 191, 127);
+  border: 1px solid rgba(248, 191, 127, 0.5);
+  border-radius: 8px;
+}
+
+.process-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.process-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.process-icon {
+  font-size: 28px;
+  color: rgba(248, 191, 127);
+}
+
+.process-item p {
+  color: #ddd;
+  font-size: 15px;
+}
+
+.process-arrow {
+  font-size: 24px;
+  color: rgba(248, 191, 127, 0.7);
+  transform: rotate(90deg);
+}
+
+@media (max-width: 1024px) {
+  .process-flow {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+    transform: scale(1.05);
+    transform-origin: center top;
+  }
+
+  .process-icon {
+    font-size: 34px;
+  }
+
+  .process-arrow {
+    font-size: 26px;
+    transform: rotate(0deg);
+  }
+
+  .process-item {
+    width: 90px;
+  }
+
+  .process-item p {
+    font-size: 15px;
+  }
+
+  .process-label {
+    font-size: 22px;
+    padding: 6px 22px;
+  }
+}
+
+@media (max-width: 765px) {
+  .process-flow {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 12px;
+    transform: scale(0.85);
+    transform-origin: center top;
+  }
+
+  .process-box {
+    padding: 0px 0px 0px;
+    max-width: 350px;
+  }
+
+  .process-arrow {
+    transform: rotate(0deg);
+    font-size: 20px;
+  }
+
+  .process-item {
+    width: 80px;
+  }
+
+  .process-item p {
+    font-size: 13px;
+  }
+}
+
+.offices-section {
+  padding: 50px 20px;
+  width: 100%;
+}
+
+.offices-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.offices-title h2 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+}
+
+.offices-title p {
+  color: #bcbcbc;
+  font-size: 16px;
+}
+
+.highlight {
+  color: rgba(248, 191, 127);
+}
+
+.marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: flex;
+  width: max-content;
+  gap: 80px;
+}
+
+.office-card {
+  width: 200px;
+  text-align: center;
+}
+
+.office-img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin: 0 auto 15px;
+  opacity: 0.95;
+}
+
+.office-card h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .marquee-content {
+    gap: 50px;
+  }
+
+  .office-card {
+    width: 160px;
+  }
+
+  .office-img {
+    width: 130px;
+    height: 130px;
+  }
+  .offices-title h2 {
+  font-size: 32px;
+  }
+.offices-title p {
+  font-size: 13px;
+}
+}
+
+.combo-icons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 24px;
+}

@@ -1,0 +1,38 @@
+{
+  "contact": {
+    "title": "End-to-end freight and supply chain solutions worldwide",
+    "subtitle": "Delivering seamless logistics support across global trade routes. Leave us a message and our team will help you move your cargo with confidence.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "privacy": "I declare that I have read the Privacy Policy and consent to the processing of my personal data.",
+    "btn": "Contact Us",
+    "whatsapp": "WhatsApp Us"
+  },
+
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "items": [
+      {
+        "text": "Great team with quick responses and excellent support throughout our entire shipment process.",
+        "author": "Ahmed A."
+      },
+      {
+        "text": "Professional service that handled our cargo smoothly and delivered everything on schedule.",
+        "author": "Sarah K."
+      },
+      {
+        "text": "Reliable partners who consistently ensure our logistics needs are managed with outstanding care.",
+        "author": "Mohammed R."
+      },
+      {
+        "text": "Friendly communication, fast coordination, and dependable service across every single shipment.",
+        "author": "Ravi P."
+      },
+      {
+        "text": "Efficient team that provides quality logistics solutions with clear updates and timely delivery.",
+        "author": "Lina M."
+      }
+    ]
+  }
+}

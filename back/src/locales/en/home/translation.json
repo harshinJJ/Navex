@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "company": "Navex Global",
+    "line1": "Where Every Move",
+    "line2": "Matters.",
+    "description": "Reliable global logistics built for speed, clarity and scale."
+  },
+  "intro": {
+    "heading": "Built For",
+    "headingSpan": "Global Logistics & Freight Movement",
+    "text": "Navex Global delivers reliable international logistics, freight forwarding and cargo shipping solutions. We help businesses move goods worldwide with speed, accuracy and seamless end-to-end support.",
+    "cardTitle": "Trusted by Global Brands",
+    "cardText": "Your cargo, handled with precision."
+  },
+  "about": {
+    "title1": "Moving Businesses",
+    "title2": "Beyond Borders",
+    "description": "We provide international logistics, freight forwarding and global cargo shipping solutions designed for modern businesses. Our team ensures every shipment is handled with clarity, speed and precision across air, sea and road networks.",
+    "card1": {
+      "title": "Global Reach",
+      "text": "Seamless cross-border freight services powered by our international logistics and supply chain network."
+    },
+    "card2": {
+      "title": "Built on Precision",
+      "text": "Every shipment is tracked, optimized and delivered with data-driven accuracy across all freight modes."
+    },
+    "card3": {
+      "title": "Future Ready",
+      "text": "Scalable, technology-driven logistics systems built to support next-generation global trade."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "To become a global leader in logistics and freight forwarding by enabling smooth, reliable and technology-driven trade across industries."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "text": "To deliver secure, efficient and cost-effective logistics solutions using modern supply chain practices, advanced technology and a dedicated professional team."
+    },
+    "values": {
+      "title": "Our Values",
+      "text": "Integrity, commitment, operational excellence and innovation to shape a sustainable logistics future."
+    }
+  },
+  "services": {
+    "title1": "Our",
+    "title2": "Services",
+    "subtitle": "Reliable global logistics solutions built for speed, visibility and efficiency.",
+    "items": {
+      "air": {
+        "title": "Air Freight",
+        "desc": "Navex Global delivers fast and reliable air freight services for time-critical cargo. We handle documentation, customs clearance and tracking across domestic and international routes."
+      },
+      "ocean": {
+        "title": "Ocean Freight",
+        "desc": "Cost-effective and dependable sea freight services for FCL and LCL shipments, with full coordination and customs management."
+      },
+      "road": {
+        "title": "Road Freight",
+        "desc": "Flexible and efficient domestic and cross-border road transport solutions, including FTL and LTL with complete tracking."
+      },
+      "project": {
+        "title": "Project Logistics",
+        "desc": "End-to-end handling of oversized and complex cargo, including route planning, permits and multimodal transport."
+      },
+      "transport": {
+        "title": "Transportation",
+        "desc": "Fast and secure transportation services across GCC countries with expert customs handling and real-time tracking."
+      },
+      "customs": {
+        "title": "Customs Clearance",
+        "desc": "Full customs clearance and door-delivery support to ensure smooth, compliant and delay-free shipment processing."
+      }
+    }
+  },
+  "why": {
+    "heading1": "Ready To Get Started?",
+    "heading2": "Let's Talk Today",
+    "subtext": "We make everything simple, fast, and reliable for businesses of all sizes.",
+    "fastTitle": "FAST DELIVERY",
+    "fastDesc": "Association with us promises a faster delivery of your cargo via sea, air, and road.",
+    "supportTitle": "24 / 7 SUPPORT",
+    "supportDesc": "Our throughout support helps customers track their orders and information.",
+    "securedTitle": "SECURED SERVICES",
+    "securedDesc": "We ensure the transportation services we offer are highly secured and professional.",
+    "affordableTitle": "AFFORDABLE PRICE",
+    "affordableDesc": "Our cost-effective logistics solutions help you realize your transportation needs."
+  },
+  "common": {
+    "contact": "Contact Us"
+  }
+}

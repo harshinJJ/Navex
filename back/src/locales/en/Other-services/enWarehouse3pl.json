@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Warehousing & 3PL"
+  },
+
+  "heading": "Warehousing & 3PL Services",
+  "subheading": "Reliable and efficient storage and distribution.",
+
+  "p1": "Navex Global provides reliable warehousing and 3PL services designed to support end-to-end supply chain operations. Our facilities ensure safe storage, fast handling, and organized inventory management for all types of cargo.",
+  "p2": "We offer flexible storage options including palletized goods, bonded warehousing, cross-docking, and temperature-controlled solutions. Our team manages receiving, sorting, and dispatch with precision and efficiency.",
+  "p3": "With advanced inventory tracking systems and optimized workflows, we help businesses reduce operational costs while improving order accuracy and delivery performance.",
+  "p4": "From short-term storage to fully managed 3PL solutions, we handle warehousing, fulfillment, distribution, and last-mile coordination to keep your supply chain running smoothly.",
+  "p5": "Our strategic warehouse locations across key logistics hubs enable fast delivery, reduced transit times, and enhanced visibility from inbound cargo to final customer delivery.",
+
+  "process": {
+    "title": "Process",
+    "book": "Receive Cargo",
+    "pack": "Store & Manage",
+    "move": "Pick & Pack",
+    "delivery": "Dispatch Delivery"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Project Logistics"
+  },
+
+  "heading": "Project Logistics Services",
+  "subheading": "Specialized solutions for heavy, oversized, and complex cargo.",
+
+  "p1": "Navex Global provides comprehensive project logistics solutions designed to support the movement of large, heavy, and complex cargo for industrial, construction, energy, and infrastructure projects.",
+  "p2": "Our team manages route planning, equipment arrangements, permits, and coordination with port authorities to ensure every project shipment moves safely and efficiently.",
+  "p3": "With expertise in handling oversized cargo, breakbulk shipments, and specialized lifting operations, we deliver tailored solutions based on project timelines and technical requirements.",
+  "p4": "We work closely with reliable carriers, crane operators, and ground logistics teams to execute safe loading, unloading, and transportation of high-value project cargo.",
+  "p5": "From origin to final site delivery, Navex Global ensures full visibility, risk management, and seamless coordination across every phase of the project logistics process.",
+
+  "process": {
+    "title": "Process",
+    "book": "Planning & Survey",
+    "pack": "Permits & Coordination",
+    "move": "Transport & Handling",
+    "delivery": "Final Site Delivery"
+  }
+}

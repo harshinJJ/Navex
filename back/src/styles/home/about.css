@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Work+Sans:wght@300;400;500&display=swap");
+
+.brand-section {
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.brand-layout {
+  position: relative;
+  z-index: 2;
+  width: 85%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 40px;
+  gap: 70px;
+  color: white;
+}
+
+.about-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-left h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+.about-left span {
+  color: rgba(248, 191, 127);
+}
+.intro-text {
+  font-family: "Work Sans", sans-serif;
+  opacity: 0.9;
+  max-width: 620px;
+  margin-bottom: 55px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.info-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  flex: 1;
+  min-width: 210px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(3px);
+  border-radius: 6px;
+}
+
+.card h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+
+.card h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-family: "Work Sans", sans-serif;
+  opacity: 0.9;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.about-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+}
+
+.vm-block {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.vm-block:last-child {
+  border-bottom: none;
+}
+
+.vm-block h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.vm-block p {
+  font-family: "Work Sans", sans-serif;
+  opacity: 0.9;
+  line-height: 1.6;
+
+  font-size: 16px;
+}
+
+@media (max-width: 1025px) {
+  .brand-layout {
+    flex-direction: column;
+    text-align: center;
+    padding: 90px 30px;
+    gap: 50px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+    align-items: center;
+  }
+
+  .about-left h1 {
+    font-size: 48px;
+  }
+
+  .intro-text {
+    max-width: 90%;
+    font-size: 16px;
+  }
+
+  .info-cards {
+    flex-direction: row;
+    width: 100%;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .card {
+    flex: 1;
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .brand-section {
+    background-image: url("/src/assets/about/aboutph.png") !important;
+    background-size: cover;
+    background-position: center;
+  }
+  .brand-section {
+    min-height: auto;
+    padding: 40px 0;
+  }
+
+  .brand-layout {
+    padding: 60px 20px;
+    gap: 40px;
+  }
+
+  .overlay {
+    width: 95%;
+    height: 95%;
+  }
+
+  .about-left h1 {
+    font-size: 34px;
+    line-height: 1.15;
+  }
+
+  .intro-text {
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+
+  .info-cards {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 20px 0;
+    scrollbar-width: none;
+    justify-content: flex-start;
+  }
+  .card {
+    flex: 0 0 80%;
+    scroll-snap-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px 20px;
+    border-radius: 10px;
+    transition: 0.25s ease;
+  }
+
+  .vm-block h3 {
+    font-size: 20px;
+  }
+
+  .vm-block p {
+    font-size: 14px;
+  }
+}

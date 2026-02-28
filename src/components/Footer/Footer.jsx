@@ -112,6 +112,8 @@ export default function Footer() {
               <p>{t("footer.address.building")}</p>
               <p>{t("footer.address.city")}</p>
               <p>{t("footer.address.area")}</p>
+              <p>{t("footer.address.email")}</p>
+              <p>{t("footer.address.number")}</p>
             </div>
           </div>
 

@@ -54,6 +54,7 @@ function App() {
         <Route path="/ar/air-freight" element={<AirFreight />} />
         <Route path="/ar/ocean-freight" element={<OceanFreight />} />
         <Route path="/ar/road-freight" element={<RoadFreight />} />
+        <Route path="/ar/sea-air" element={<SeaAirFreight />} />
         <Route path="/ar/liner-shipping" element={<LinerShipping />} />
         <Route path="/ar/customs-clearance" element={<CustomsClearance />} />
         <Route path="/ar/warehouse-3pl" element={<Warehouse3pl />} />

@@ -1,5 +1,5 @@
 import "../../styles/footer.css";
-import { FiFacebook, FiInstagram, FiX } from "react-icons/fi";
+import { FiInstagram, FiX, FiLinkedin } from "react-icons/fi";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
@@ -64,22 +64,40 @@ export default function Footer() {
             <motion.a href="#services" whileHover={{ x: 5 }}>
               {t("nav.services")}
             </motion.a>
-            <motion.a href="#solutions" whileHover={{ x: 5 }}>
-              {t("nav.solutions")}
-            </motion.a>
-            <motion.a href="#contact" whileHover={{ x: 5 }}>
+            <motion.a href="contact" whileHover={{ x: 5 }}>
               {t("nav.contact")}
             </motion.a>
           </nav>
 
+          {/* SOCIAL LINKS UPDATED */}
           <motion.div className="footer-socials" variants={fadeUp}>
-            <motion.a whileHover={{ scale: 1.15 }}>
-              <FiFacebook />
+            {/* LinkedIn */}
+            <motion.a
+              href="https://www.linkedin.com/company/navex-global-ksa/"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.15 }}
+            >
+              <FiLinkedin />
             </motion.a>
-            <motion.a whileHover={{ scale: 1.15 }}>
+
+            {/* Instagram */}
+            <motion.a
+              href="https://www.instagram.com/navexglobalsa/"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.15 }}
+            >
               <FiInstagram />
             </motion.a>
-            <motion.a whileHover={{ scale: 1.15 }}>
+
+            {/* X (Twitter) */}
+            <motion.a
+              href="https://x.com/navexglobalksa?s=11"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.15 }}
+            >
               <FiX />
             </motion.a>
           </motion.div>

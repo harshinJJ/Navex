@@ -274,6 +274,7 @@ export default function About_us() {
           </motion.div>
         </div>
       </section>
+
       {/* ================= CERTIFICATION & PARTNERS ================= */}
 
       <section className="about-cert-section">
@@ -324,6 +325,57 @@ export default function About_us() {
                 <img src={logo} alt={`Partner ${i + 1}`} />
               </motion.div>
             ))}
+          </motion.div>
+        </div>
+      </section>
+      <section className="about-company-section">
+        <div className="about-company-container">
+          <motion.div
+            className="about-company-left"
+            variants={smoothStagger}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+          >
+            <motion.span className="about-company-tag" variants={smoothReveal}>
+              {t("company.tag")}
+            </motion.span>
+            <motion.h2 className="about-company-title" variants={smoothReveal}>
+              {t("company.titleLine1")} <br className="title-break" />
+              {t("company.titleLine2")}
+            </motion.h2>
+
+            <motion.p className="about-company-desc" variants={smoothReveal}>
+              {t("company.description")}
+            </motion.p>
+          </motion.div>
+
+          <motion.div
+            className="about-company-right"
+            variants={smoothStagger}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+          >
+            <ul className="about-company-list">
+              {[
+                ["cr", "cr"],
+                ["headOffice", "headOffice"],
+                ["address", "address"],
+                ["email", "email"],
+                ["phone", "phone"],
+              ].map(([label, value], i) => (
+                <motion.li
+                  key={i}
+                  variants={smoothReveal}
+                  whileHover={{ x: 6 }}
+                  transition={{ duration: 0.25 }}
+                >
+                  <strong>{t(`company.items.${label}`)}:</strong>{" "}
+                  {t(`company.values.${value}`)}
+                </motion.li>
+              ))}
+            </ul>
           </motion.div>
         </div>
       </section>

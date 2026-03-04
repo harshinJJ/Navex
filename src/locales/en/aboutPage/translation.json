@@ -57,5 +57,25 @@
   "tag": "Certified & Trusted",
   "title": "20+ Years of Excellence",
   "description": "Recognized as a reliable industry leader with long-standing partnerships across the globe. Our certifications and partners reflect our commitment to quality and professionalism."
+},
+"company": {
+  "tag": "Company Information",
+  "titleLine1": "Office & Legal",
+  "titleLine2": "Details",
+  "description": "Official registration and contact information for Navex Global.",
+  "items": {
+    "cr": "CR",
+    "headOffice": "Head Office",
+    "address": "Address",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "values": {
+    "cr": "7053120635",
+    "headOffice": "Saudi Arabia",
+    "address": "Al Noor Tower, opposite the Federation of Chambers of Commerce, Fourth Floor (4), Office No. 41, Riyadh, Saudi Arabia, Al-Olaya neighborhood, King Fahd Road",
+    "email": "navexglobalksa@gmail.com",
+    "phone": "+966 54 097 2972"
+  }
 }
 }

@@ -7,7 +7,7 @@ import { useState } from "react";
 import toast from "../../toastConfig";
 
 export default function Footer() {
-  const { t } = useTranslation("footer");
+  const { t, i18n } = useTranslation("footer");
   const [email, setEmail] = useState("");
 
   const fadeUp = {
@@ -113,7 +113,12 @@ export default function Footer() {
               <p>{t("footer.address.city")}</p>
               <p>{t("footer.address.area")}</p>
               <p>{t("footer.address.email")}</p>
-              <p>{t("footer.address.number")}</p>
+              <p
+                dir="ltr"
+                style={{ textAlign: i18n.language === "ar" ? "right" : "left" }}
+              >
+                {t("footer.address.number")}
+              </p>
             </div>
           </div>
 

@@ -1,5 +1,6 @@
 import "../../styles/footer.css";
 import { FiInstagram, FiX, FiLinkedin } from "react-icons/fi";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
@@ -54,9 +55,9 @@ export default function Footer() {
           <h2 className="footer-logo">{t("footer.brand")}</h2>
 
           <nav className="footer-nav">
-            <motion.a href="#hero" whileHover={{ x: 5 }}>
-              {t("nav.home")}
-            </motion.a>
+            <Link to="/">
+              <motion.span whileHover={{ x: 5 }}>{t("nav.home")}</motion.span>
+            </Link>
             <motion.a href="#about" whileHover={{ x: 5 }}>
               {t("nav.about")}
             </motion.a>

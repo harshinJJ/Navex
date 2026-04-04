@@ -58,6 +58,23 @@ function AirFreight() {
           content="air freight, air cargo, air shipping, express air freight, Navex Global air freight, Saudi Arabia air cargo"
         />
         <link rel="canonical" href="https://www.navexglobal.com/air-freight" />
+        <meta
+          property="og:title"
+          content="Air Freight Services | Fast Global Air Cargo | Navex Global"
+        />
+        <meta
+          property="og:description"
+          content="Navex Global provides fast and reliable air freight services worldwide. Express and standard air cargo shipping from Saudi Arabia, UAE, India, and more."
+        />
+        <meta
+          property="og:url"
+          content="https://www.navexglobal.com/air-freight"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.navexglobal.com/Navex-global.png"
+        />
       </Helmet>
       {/* HERO */}
       <section

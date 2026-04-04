@@ -55,6 +55,23 @@ function ValueAddedService() {
           content="value added services, packaging services, labeling, quality inspection, supply chain services, Navex Global VAS"
         />
         <link rel="canonical" href="https://www.navexglobal.com/value-added" />
+        <meta
+          property="og:title"
+          content="Value Added Services | Packaging, Labeling & More | Navex Global"
+        />
+        <meta
+          property="og:description"
+          content="Navex Global offers value added logistics services including repackaging, labeling, quality inspection, and supply chain optimization."
+        />
+        <meta
+          property="og:url"
+          content="https://www.navexglobal.com/value-added"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.navexglobal.com/Navex-global.png"
+        />
       </Helmet>
       {/* HERO */}
       <section

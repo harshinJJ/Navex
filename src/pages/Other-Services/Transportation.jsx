@@ -61,6 +61,23 @@ function Transportation() {
           rel="canonical"
           href="https://www.navexglobal.com/transportation"
         />
+        <meta
+          property="og:title"
+          content="Transportation Services | Local & Regional Delivery | Navex Global"
+        />
+        <meta
+          property="og:description"
+          content="Navex Global offers comprehensive transportation services including local delivery, regional distribution, and last-mile logistics across the Middle East."
+        />
+        <meta
+          property="og:url"
+          content="https://www.navexglobal.com/transportation"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.navexglobal.com/Navex-global.png"
+        />
       </Helmet>
       {/* HERO */}
       <section

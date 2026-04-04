@@ -59,6 +59,20 @@ function SeaAirFreight() {
           content="sea-air freight, combined shipping, multimodal freight, sea air cargo, Navex Global sea-air, hybrid shipping"
         />
         <link rel="canonical" href="https://www.navexglobal.com/sea-air" />
+        <meta
+          property="og:title"
+          content="Sea-Air Freight Services | Combined Shipping | Navex Global"
+        />
+        <meta
+          property="og:description"
+          content="Navex Global offers sea-air freight services combining ocean and air cargo for cost-effective, faster shipping. Ideal balance of speed and affordability."
+        />
+        <meta property="og:url" content="https://www.navexglobal.com/sea-air" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.navexglobal.com/Navex-global.png"
+        />
       </Helmet>
       {/* HERO */}
       <section

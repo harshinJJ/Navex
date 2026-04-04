@@ -57,6 +57,23 @@ function Warehouse3pl() {
           rel="canonical"
           href="https://www.navexglobal.com/warehouse-3pl"
         />
+        <meta
+          property="og:title"
+          content="Warehouse & 3PL Services | Storage & Fulfillment | Navex Global"
+        />
+        <meta
+          property="og:description"
+          content="Navex Global provides warehouse and third-party logistics (3PL) services including storage, inventory management, and order fulfillment solutions."
+        />
+        <meta
+          property="og:url"
+          content="https://www.navexglobal.com/warehouse-3pl"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.navexglobal.com/Navex-global.png"
+        />
       </Helmet>
       {/* HERO */}
       <section

@@ -61,6 +61,23 @@ function OceanFreight() {
           rel="canonical"
           href="https://www.navexglobal.com/ocean-freight"
         />
+        <meta
+          property="og:title"
+          content="Ocean Freight Services | Sea Cargo Shipping | Navex Global"
+        />
+        <meta
+          property="og:description"
+          content="Affordable and reliable ocean freight services by Navex Global. FCL, LCL, and bulk sea cargo shipping across major international ports."
+        />
+        <meta
+          property="og:url"
+          content="https://www.navexglobal.com/ocean-freight"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.navexglobal.com/Navex-global.png"
+        />
       </Helmet>
       {/* HERO */}
       <section

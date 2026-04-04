@@ -61,6 +61,23 @@ function LinerShipping() {
           rel="canonical"
           href="https://www.navexglobal.com/liner-shipping"
         />
+        <meta
+          property="og:title"
+          content="Liner Shipping Services | Regular Vessel Schedules | Navex Global"
+        />
+        <meta
+          property="og:description"
+          content="Navex Global provides liner shipping services with fixed schedules and competitive rates. Reliable container shipping on major global trade lanes."
+        />
+        <meta
+          property="og:url"
+          content="https://www.navexglobal.com/liner-shipping"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.navexglobal.com/Navex-global.png"
+        />
       </Helmet>
       {/* HERO */}
       <section

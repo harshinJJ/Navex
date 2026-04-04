@@ -58,6 +58,23 @@ function ValueAddedService() {
           rel="canonical"
           href="https://www.navexglobal.com/buyers-console"
         />
+        <meta
+          property="og:title"
+          content="Buyers Consolidation Services | Cargo Grouping | Navex Global"
+        />
+        <meta
+          property="og:description"
+          content="Navex Global provides buyers consolidation services to group and ship cargo efficiently. Reduce costs with consolidated freight from multiple suppliers."
+        />
+        <meta
+          property="og:url"
+          content="https://www.navexglobal.com/buyers-console"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.navexglobal.com/Navex-global.png"
+        />
       </Helmet>
       {/* HERO */}
       <section

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Navex Global",
+  "name": "Navex Global | Freight Forwarding & Logistics",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "Navex-global.png",
       "type": "image/png",
       "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0a1f44",
+  "background_color": "#ffffff",
+  "description": "Navex Global — Leading freight forwarding and logistics company offering air freight, ocean freight, road freight, customs clearance, and supply chain solutions."
 }

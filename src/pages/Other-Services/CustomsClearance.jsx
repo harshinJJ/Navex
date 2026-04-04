@@ -61,6 +61,23 @@ function CustomsClearance() {
           rel="canonical"
           href="https://www.navexglobal.com/customs-clearance"
         />
+        <meta
+          property="og:title"
+          content="Customs Clearance Services | Import & Export | Navex Global"
+        />
+        <meta
+          property="og:description"
+          content="Fast and hassle-free customs clearance services by Navex Global. Expert import and export documentation, compliance, and duty management."
+        />
+        <meta
+          property="og:url"
+          content="https://www.navexglobal.com/customs-clearance"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.navexglobal.com/Navex-global.png"
+        />
       </Helmet>
       {/* HERO */}
       <section

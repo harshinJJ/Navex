@@ -60,6 +60,23 @@ function ProjectLogistics() {
           rel="canonical"
           href="https://www.navexglobal.com/project-logistics"
         />
+        <meta
+          property="og:title"
+          content="Project Logistics | Heavy Cargo & Oversized Freight | Navex Global"
+        />
+        <meta
+          property="og:description"
+          content="Navex Global specializes in project logistics for heavy, oversized, and complex cargo. End-to-end project cargo management and engineering solutions."
+        />
+        <meta
+          property="og:url"
+          content="https://www.navexglobal.com/project-logistics"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.navexglobal.com/Navex-global.png"
+        />
       </Helmet>
       {/* HERO */}
       <section

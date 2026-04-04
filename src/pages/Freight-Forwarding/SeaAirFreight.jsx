@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import "../../styles/Services/services.css";
 
@@ -45,6 +46,20 @@ function SeaAirFreight() {
       dir={isArabic ? "rtl" : "ltr"}
       style={{ textAlign: isArabic ? "right" : "left" }}
     >
+      <Helmet>
+        <title>
+          Sea-Air Freight Services | Combined Shipping | Navex Global
+        </title>
+        <meta
+          name="description"
+          content="Navex Global offers sea-air freight services combining ocean and air cargo for cost-effective, faster shipping. Ideal balance of speed and affordability."
+        />
+        <meta
+          name="keywords"
+          content="sea-air freight, combined shipping, multimodal freight, sea air cargo, Navex Global sea-air, hybrid shipping"
+        />
+        <link rel="canonical" href="https://www.navexglobal.com/sea-air" />
+      </Helmet>
       {/* HERO */}
       <section
         className="services-hero"

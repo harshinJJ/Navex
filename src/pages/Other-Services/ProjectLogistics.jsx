@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
 import "../../styles/Services/services.css";
@@ -43,6 +44,23 @@ function ProjectLogistics() {
       dir={isArabic ? "rtl" : "ltr"}
       style={{ textAlign: isArabic ? "right" : "left" }}
     >
+      <Helmet>
+        <title>
+          Project Logistics | Heavy Cargo & Oversized Freight | Navex Global
+        </title>
+        <meta
+          name="description"
+          content="Navex Global specializes in project logistics for heavy, oversized, and complex cargo. End-to-end project cargo management and engineering solutions."
+        />
+        <meta
+          name="keywords"
+          content="project logistics, heavy cargo, oversized freight, project cargo, breakbulk shipping, Navex Global project logistics"
+        />
+        <link
+          rel="canonical"
+          href="https://www.navexglobal.com/project-logistics"
+        />
+      </Helmet>
       {/* HERO */}
       <section
         className="services-hero"

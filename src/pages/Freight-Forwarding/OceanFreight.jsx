@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import "../../styles/Services/services.css";
 
@@ -44,6 +45,23 @@ function OceanFreight() {
       dir={isArabic ? "rtl" : "ltr"}
       style={{ textAlign: isArabic ? "right" : "left" }}
     >
+      <Helmet>
+        <title>
+          Ocean Freight Services | Sea Cargo Shipping | Navex Global
+        </title>
+        <meta
+          name="description"
+          content="Affordable and reliable ocean freight services by Navex Global. FCL, LCL, and bulk sea cargo shipping across major international ports."
+        />
+        <meta
+          name="keywords"
+          content="ocean freight, sea freight, sea cargo, FCL shipping, LCL shipping, Navex Global ocean freight, international sea shipping"
+        />
+        <link
+          rel="canonical"
+          href="https://www.navexglobal.com/ocean-freight"
+        />
+      </Helmet>
       {/* HERO */}
       <section
         className="services-hero"

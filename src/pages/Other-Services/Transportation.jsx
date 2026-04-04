@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
 import "../../styles/Services/services.css";
@@ -44,6 +45,23 @@ function Transportation() {
       dir={isArabic ? "rtl" : "ltr"}
       style={{ textAlign: isArabic ? "right" : "left" }}
     >
+      <Helmet>
+        <title>
+          Transportation Services | Local & Regional Delivery | Navex Global
+        </title>
+        <meta
+          name="description"
+          content="Navex Global offers comprehensive transportation services including local delivery, regional distribution, and last-mile logistics across the Middle East."
+        />
+        <meta
+          name="keywords"
+          content="transportation services, local delivery, regional transport, last-mile logistics, Navex Global transportation, Middle East delivery"
+        />
+        <link
+          rel="canonical"
+          href="https://www.navexglobal.com/transportation"
+        />
+      </Helmet>
       {/* HERO */}
       <section
         className="services-hero"

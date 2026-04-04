@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
 import "../../styles/Services/services.css";
@@ -41,6 +42,23 @@ function ValueAddedService() {
       dir={isArabic ? "rtl" : "ltr"}
       style={{ textAlign: isArabic ? "right" : "left" }}
     >
+      <Helmet>
+        <title>
+          Buyers Consolidation Services | Cargo Grouping | Navex Global
+        </title>
+        <meta
+          name="description"
+          content="Navex Global provides buyers consolidation services to group and ship cargo efficiently. Reduce costs with consolidated freight from multiple suppliers."
+        />
+        <meta
+          name="keywords"
+          content="buyers consolidation, cargo consolidation, grouped shipping, supplier consolidation, Navex Global buyers console"
+        />
+        <link
+          rel="canonical"
+          href="https://www.navexglobal.com/buyers-console"
+        />
+      </Helmet>
       {/* HERO */}
       <section
         className="services-hero"

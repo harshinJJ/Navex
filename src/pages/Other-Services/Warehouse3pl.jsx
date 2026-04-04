@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
 import "../../styles/Services/services.css";
@@ -40,6 +41,23 @@ function Warehouse3pl() {
       dir={isArabic ? "rtl" : "ltr"}
       style={{ textAlign: isArabic ? "right" : "left" }}
     >
+      <Helmet>
+        <title>
+          Warehouse & 3PL Services | Storage & Fulfillment | Navex Global
+        </title>
+        <meta
+          name="description"
+          content="Navex Global provides warehouse and third-party logistics (3PL) services including storage, inventory management, and order fulfillment solutions."
+        />
+        <meta
+          name="keywords"
+          content="warehouse services, 3PL, third-party logistics, storage solutions, inventory management, Navex Global warehouse"
+        />
+        <link
+          rel="canonical"
+          href="https://www.navexglobal.com/warehouse-3pl"
+        />
+      </Helmet>
       {/* HERO */}
       <section
         className="services-hero"

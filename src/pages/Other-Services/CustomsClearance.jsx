@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
 import "../../styles/Services/services.css";
@@ -44,6 +45,23 @@ function CustomsClearance() {
       dir={isArabic ? "rtl" : "ltr"}
       style={{ textAlign: isArabic ? "right" : "left" }}
     >
+      <Helmet>
+        <title>
+          Customs Clearance Services | Import & Export | Navex Global
+        </title>
+        <meta
+          name="description"
+          content="Fast and hassle-free customs clearance services by Navex Global. Expert import and export documentation, compliance, and duty management."
+        />
+        <meta
+          name="keywords"
+          content="customs clearance, import clearance, export clearance, customs broker, Navex Global customs, Saudi customs clearance"
+        />
+        <link
+          rel="canonical"
+          href="https://www.navexglobal.com/customs-clearance"
+        />
+      </Helmet>
       {/* HERO */}
       <section
         className="services-hero"

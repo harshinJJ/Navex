@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- English Pages -->
+  <url>
+    <loc>https://www.navexglobal.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/contact" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Freight Forwarding Services -->
+  <url>
+    <loc>https://www.navexglobal.com/air-freight</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/air-freight" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/air-freight" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ocean-freight</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/ocean-freight" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/ocean-freight" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/road-freight</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/road-freight" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/road-freight" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/sea-air</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/sea-air" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/sea-air" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Other Services -->
+  <url>
+    <loc>https://www.navexglobal.com/liner-shipping</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/liner-shipping" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/liner-shipping" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/customs-clearance</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/customs-clearance" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/customs-clearance" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/warehouse-3pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/warehouse-3pl" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/warehouse-3pl" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/project-logistics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/project-logistics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/project-logistics" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/transportation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/transportation" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/transportation" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/buyers-console</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/buyers-console" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/buyers-console" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/value-added</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/value-added" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/value-added" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Arabic Pages -->
+  <url>
+    <loc>https://www.navexglobal.com/ar</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/about</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/contact</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/contact" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/air-freight</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/air-freight" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/air-freight" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/ocean-freight</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/ocean-freight" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/ocean-freight" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/road-freight</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/road-freight" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/road-freight" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/sea-air</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/sea-air" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/sea-air" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/liner-shipping</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/liner-shipping" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/liner-shipping" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/customs-clearance</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/customs-clearance" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/customs-clearance" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/warehouse-3pl</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/warehouse-3pl" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/warehouse-3pl" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/project-logistics</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/project-logistics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/project-logistics" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/transportation</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/transportation" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/transportation" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/buyers-console</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/buyers-console" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/buyers-console" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.navexglobal.com/ar/value-added</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.navexglobal.com/ar/value-added" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.navexglobal.com/value-added" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

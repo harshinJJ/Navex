@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import "./../styles/aboutus/aboutPage.css";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
@@ -103,6 +104,20 @@ export default function About_us() {
 
   return (
     <div className="about-wrapper">
+      <Helmet>
+        <title>
+          About Navex Global | Trusted Logistics & Freight Forwarding Partner
+        </title>
+        <meta
+          name="description"
+          content="Learn about Navex Global — a trusted logistics and freight forwarding company with offices in Saudi Arabia, UAE, India, Pakistan, China, and Bangladesh."
+        />
+        <meta
+          name="keywords"
+          content="about Navex Global, logistics company, freight partner, shipping company Saudi Arabia, global freight forwarding"
+        />
+        <link rel="canonical" href="https://www.navexglobal.com/about" />
+      </Helmet>
       {/* ================= HERO ================= */}
 
       <section

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import "../../styles/Services/services.css";
 import serviceHero from "../../assets/services/Roadfreight.png";
@@ -42,6 +43,18 @@ function RoadFreight() {
       dir={isArabic ? "rtl" : "ltr"}
       style={{ textAlign: isArabic ? "right" : "left" }}
     >
+      <Helmet>
+        <title>Road Freight & Trucking Services | Navex Global Logistics</title>
+        <meta
+          name="description"
+          content="Navex Global offers reliable road freight and trucking services across the GCC and Middle East. Door-to-door land transportation and FTL/LTL solutions."
+        />
+        <meta
+          name="keywords"
+          content="road freight, trucking services, land transportation, FTL, LTL, GCC road freight, Navex Global road freight"
+        />
+        <link rel="canonical" href="https://www.navexglobal.com/road-freight" />
+      </Helmet>
       {/* HERO */}
       <section
         className="services-hero"

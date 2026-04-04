@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import "../../styles/Services/services.css";
 
@@ -44,6 +45,20 @@ function AirFreight() {
       dir={isArabic ? "rtl" : "ltr"}
       style={{ textAlign: isArabic ? "right" : "left" }}
     >
+      <Helmet>
+        <title>
+          Air Freight Services | Fast Global Air Cargo | Navex Global
+        </title>
+        <meta
+          name="description"
+          content="Navex Global provides fast and reliable air freight services worldwide. Express and standard air cargo shipping from Saudi Arabia, UAE, India, and more."
+        />
+        <meta
+          name="keywords"
+          content="air freight, air cargo, air shipping, express air freight, Navex Global air freight, Saudi Arabia air cargo"
+        />
+        <link rel="canonical" href="https://www.navexglobal.com/air-freight" />
+      </Helmet>
       {/* HERO */}
       <section
         className="services-hero"

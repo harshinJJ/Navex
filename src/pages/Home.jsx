@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Hero from "../components/home/Hero";
 import Intro from "../components/home/Intro";
 import About from "../components/home/About";
@@ -7,6 +8,20 @@ import WhyChoose from "../components/home/WhyChoose";
 export default function Home() {
   return (
     <>
+      <Helmet>
+        <title>
+          Navex Global | Cargo Shipping, Air Freight, Sea Freight & Logistics
+        </title>
+        <meta
+          name="description"
+          content="Navex Global offers reliable cargo shipping, air freight, ocean freight, road freight, and end-to-end logistics solutions across Saudi Arabia, UAE, India, and worldwide."
+        />
+        <meta
+          name="keywords"
+          content="cargo shipping, air freight, sea freight, logistics, Navex Global, Saudi Arabia logistics, freight forwarding, international shipping"
+        />
+        <link rel="canonical" href="https://www.navexglobal.com/" />
+      </Helmet>
       <Hero />
       <Intro />
       <About />

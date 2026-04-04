@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import "../../styles/Services/services.css";
 
@@ -44,6 +45,23 @@ function LinerShipping() {
       dir={isArabic ? "rtl" : "ltr"}
       style={{ textAlign: isArabic ? "right" : "left" }}
     >
+      <Helmet>
+        <title>
+          Liner Shipping Services | Regular Vessel Schedules | Navex Global
+        </title>
+        <meta
+          name="description"
+          content="Navex Global provides liner shipping services with fixed schedules and competitive rates. Reliable container shipping on major global trade lanes."
+        />
+        <meta
+          name="keywords"
+          content="liner shipping, container shipping, vessel schedules, liner services, Navex Global liner shipping, regular shipping routes"
+        />
+        <link
+          rel="canonical"
+          href="https://www.navexglobal.com/liner-shipping"
+        />
+      </Helmet>
       {/* HERO */}
       <section
         className="services-hero"

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import emailjs from "emailjs-com";
 import toast from "react-hot-toast";
@@ -58,6 +59,18 @@ function Contact_Us() {
 
   return (
     <div style={{ direction: isArabic ? "rtl" : "ltr" }}>
+      <Helmet>
+        <title>Contact Navex Global | Get a Freight & Shipping Quote</title>
+        <meta
+          name="description"
+          content="Contact Navex Global for freight forwarding, cargo shipping, and logistics inquiries. Get a free quote for air freight, ocean freight, and more."
+        />
+        <meta
+          name="keywords"
+          content="contact Navex Global, shipping quote, freight quote, logistics inquiry, cargo shipping contact"
+        />
+        <link rel="canonical" href="https://www.navexglobal.com/contact" />
+      </Helmet>
       {/* CONTACT FORM */}
       <div className="cu-wrapper">
         <div className="cu-left">

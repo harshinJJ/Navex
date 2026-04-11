@@ -58,7 +58,7 @@ function ProjectLogistics() {
         />
         <link
           rel="canonical"
-          href="https://www.navexglobal.com/project-logistics"
+          href="https://www.navexglobalksa.com/project-logistics"
         />
         <meta
           property="og:title"
@@ -70,12 +70,12 @@ function ProjectLogistics() {
         />
         <meta
           property="og:url"
-          content="https://www.navexglobal.com/project-logistics"
+          content="https://www.navexglobalksa.com/project-logistics"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.navexglobal.com/Navex-global.png"
+          content="https://www.navexglobalksa.com/Navex-global.png"
         />
       </Helmet>
       {/* HERO */}

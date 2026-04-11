@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.navexglobal.com/sitemap.xml
+Sitemap: https://www.navexglobalksa.com/sitemap.xml

@@ -59,7 +59,7 @@ function OceanFreight() {
         />
         <link
           rel="canonical"
-          href="https://www.navexglobal.com/ocean-freight"
+          href="https://www.navexglobalksa.com/ocean-freight"
         />
         <meta
           property="og:title"
@@ -71,12 +71,12 @@ function OceanFreight() {
         />
         <meta
           property="og:url"
-          content="https://www.navexglobal.com/ocean-freight"
+          content="https://www.navexglobalksa.com/ocean-freight"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.navexglobal.com/Navex-global.png"
+          content="https://www.navexglobalksa.com/Navex-global.png"
         />
       </Helmet>
       {/* HERO */}

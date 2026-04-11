@@ -53,7 +53,7 @@ function RoadFreight() {
           name="keywords"
           content="road freight, trucking services, land transportation, FTL, LTL, GCC road freight, Navex Global road freight"
         />
-        <link rel="canonical" href="https://www.navexglobal.com/road-freight" />
+        <link rel="canonical" href="https://www.navexglobalksa.com/road-freight" />
         <meta
           property="og:title"
           content="Road Freight & Trucking Services | Navex Global Logistics"
@@ -64,12 +64,12 @@ function RoadFreight() {
         />
         <meta
           property="og:url"
-          content="https://www.navexglobal.com/road-freight"
+          content="https://www.navexglobalksa.com/road-freight"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.navexglobal.com/Navex-global.png"
+          content="https://www.navexglobalksa.com/Navex-global.png"
         />
       </Helmet>
       {/* HERO */}

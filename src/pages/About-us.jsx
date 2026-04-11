@@ -116,7 +116,7 @@ export default function About_us() {
           name="keywords"
           content="about Navex Global, logistics company, freight partner, shipping company Saudi Arabia, global freight forwarding"
         />
-        <link rel="canonical" href="https://www.navexglobal.com/about" />
+        <link rel="canonical" href="https://www.navexglobalksa.com/about" />
         <meta
           property="og:title"
           content="About Navex Global | Trusted Logistics & Freight Forwarding Partner"
@@ -125,11 +125,11 @@ export default function About_us() {
           property="og:description"
           content="Learn about Navex Global — a trusted logistics and freight forwarding company with offices in Saudi Arabia, UAE, India, Pakistan, China, and Bangladesh."
         />
-        <meta property="og:url" content="https://www.navexglobal.com/about" />
+        <meta property="og:url" content="https://www.navexglobalksa.com/about" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.navexglobal.com/Navex-global.png"
+          content="https://www.navexglobalksa.com/Navex-global.png"
         />
       </Helmet>
       {/* ================= HERO ================= */}

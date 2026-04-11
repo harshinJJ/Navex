@@ -59,7 +59,7 @@ function Transportation() {
         />
         <link
           rel="canonical"
-          href="https://www.navexglobal.com/transportation"
+          href="https://www.navexglobalksa.com/transportation"
         />
         <meta
           property="og:title"
@@ -71,12 +71,12 @@ function Transportation() {
         />
         <meta
           property="og:url"
-          content="https://www.navexglobal.com/transportation"
+          content="https://www.navexglobalksa.com/transportation"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.navexglobal.com/Navex-global.png"
+          content="https://www.navexglobalksa.com/Navex-global.png"
         />
       </Helmet>
       {/* HERO */}

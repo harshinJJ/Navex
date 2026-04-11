@@ -20,7 +20,7 @@ export default function Home() {
           name="keywords"
           content="cargo shipping, air freight, sea freight, logistics, Navex Global, Saudi Arabia logistics, freight forwarding, international shipping"
         />
-        <link rel="canonical" href="https://www.navexglobal.com/" />
+        <link rel="canonical" href="https://www.navexglobalksa.com/" />
         <meta
           property="og:title"
           content="Navex Global | Cargo Shipping, Air Freight, Sea Freight & Logistics"
@@ -29,11 +29,11 @@ export default function Home() {
           property="og:description"
           content="Navex Global offers reliable cargo shipping, air freight, ocean freight, road freight, and end-to-end logistics solutions across Saudi Arabia, UAE, India, and worldwide."
         />
-        <meta property="og:url" content="https://www.navexglobal.com/" />
+        <meta property="og:url" content="https://www.navexglobalksa.com/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.navexglobal.com/Navex-global.png"
+          content="https://www.navexglobalksa.com/Navex-global.png"
         />
       </Helmet>
       <Hero />

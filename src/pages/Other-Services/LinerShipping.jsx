@@ -59,7 +59,7 @@ function LinerShipping() {
         />
         <link
           rel="canonical"
-          href="https://www.navexglobal.com/liner-shipping"
+          href="https://www.navexglobalksa.com/liner-shipping"
         />
         <meta
           property="og:title"
@@ -71,12 +71,12 @@ function LinerShipping() {
         />
         <meta
           property="og:url"
-          content="https://www.navexglobal.com/liner-shipping"
+          content="https://www.navexglobalksa.com/liner-shipping"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.navexglobal.com/Navex-global.png"
+          content="https://www.navexglobalksa.com/Navex-global.png"
         />
       </Helmet>
       {/* HERO */}

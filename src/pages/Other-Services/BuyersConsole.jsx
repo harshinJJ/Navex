@@ -56,7 +56,7 @@ function ValueAddedService() {
         />
         <link
           rel="canonical"
-          href="https://www.navexglobal.com/buyers-console"
+          href="https://www.navexglobalksa.com/buyers-console"
         />
         <meta
           property="og:title"
@@ -68,12 +68,12 @@ function ValueAddedService() {
         />
         <meta
           property="og:url"
-          content="https://www.navexglobal.com/buyers-console"
+          content="https://www.navexglobalksa.com/buyers-console"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.navexglobal.com/Navex-global.png"
+          content="https://www.navexglobalksa.com/Navex-global.png"
         />
       </Helmet>
       {/* HERO */}

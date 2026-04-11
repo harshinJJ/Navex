@@ -55,7 +55,7 @@ function Warehouse3pl() {
         />
         <link
           rel="canonical"
-          href="https://www.navexglobal.com/warehouse-3pl"
+          href="https://www.navexglobalksa.com/warehouse-3pl"
         />
         <meta
           property="og:title"
@@ -67,12 +67,12 @@ function Warehouse3pl() {
         />
         <meta
           property="og:url"
-          content="https://www.navexglobal.com/warehouse-3pl"
+          content="https://www.navexglobalksa.com/warehouse-3pl"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.navexglobal.com/Navex-global.png"
+          content="https://www.navexglobalksa.com/Navex-global.png"
         />
       </Helmet>
       {/* HERO */}

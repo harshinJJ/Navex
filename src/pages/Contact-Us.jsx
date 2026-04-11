@@ -69,7 +69,7 @@ function Contact_Us() {
           name="keywords"
           content="contact Navex Global, shipping quote, freight quote, logistics inquiry, cargo shipping contact"
         />
-        <link rel="canonical" href="https://www.navexglobal.com/contact" />
+        <link rel="canonical" href="https://www.navexglobalksa.com/contact" />
         <meta
           property="og:title"
           content="Contact Navex Global | Get a Freight & Shipping Quote"
@@ -78,11 +78,11 @@ function Contact_Us() {
           property="og:description"
           content="Contact Navex Global for freight forwarding, cargo shipping, and logistics inquiries. Get a free quote for air freight, ocean freight, and more."
         />
-        <meta property="og:url" content="https://www.navexglobal.com/contact" />
+        <meta property="og:url" content="https://www.navexglobalksa.com/contact" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.navexglobal.com/Navex-global.png"
+          content="https://www.navexglobalksa.com/Navex-global.png"
         />
       </Helmet>
       {/* CONTACT FORM */}

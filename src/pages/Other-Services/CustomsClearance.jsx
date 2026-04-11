@@ -59,7 +59,7 @@ function CustomsClearance() {
         />
         <link
           rel="canonical"
-          href="https://www.navexglobal.com/customs-clearance"
+          href="https://www.navexglobalksa.com/customs-clearance"
         />
         <meta
           property="og:title"
@@ -71,12 +71,12 @@ function CustomsClearance() {
         />
         <meta
           property="og:url"
-          content="https://www.navexglobal.com/customs-clearance"
+          content="https://www.navexglobalksa.com/customs-clearance"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.navexglobal.com/Navex-global.png"
+          content="https://www.navexglobalksa.com/Navex-global.png"
         />
       </Helmet>
       {/* HERO */}
